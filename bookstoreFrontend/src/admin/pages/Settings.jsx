@@ -6,6 +6,7 @@ import { FaEdit } from 'react-icons/fa'
 import { useNavigate } from 'react-router-dom'
 import { toast } from 'react-toastify';
 import { adminUpdateAPI } from '../../services/allApi'
+import axiosInstances from '../../api/axiosinstances'
 function Settings() {
   const [userDetails,setUserDetails]=useState({
     _id:"",
