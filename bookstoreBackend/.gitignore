@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Uploaded files (if they contain private/user data)
+uploads/
+
+# Build files
+dist/
+build/
+
+# Editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
